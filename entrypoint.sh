@@ -6,6 +6,9 @@ fi
 
 if [[ -z "$@" ]]; then
   exec "/home/ubuntu/.local/bin/agent";
+elif [[ "$1" -eq "agent" ]]; then
+  shift;
+  exec "/home/ubuntu/.local/bin/agent" "$@";
 else
   exec "$@";
 fi
