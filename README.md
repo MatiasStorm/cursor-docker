@@ -6,7 +6,7 @@ Build the docker container by running `./build.sh`
 
 ## Setup
 
-Add your `CURSOR_API_KEY` to you a `token`-file in this repo.
+Add your `CURSOR_API_KEY` the `~/.config/cursor/token`-file
 
 Start the cursor docker container in any repository by executing `cursor`
 
